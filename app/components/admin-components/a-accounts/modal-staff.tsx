@@ -64,20 +64,7 @@ export function ModalStaff({ isOpen, onClose }: ModalStaffProps) {
               />
             </div>
             <div className="grid gap-2">
-              <Label htmlFor="password">Password</Label>
-              <Input id="password" name="password" type="password" required />
-            </div>
-            <div className="grid gap-2">
-              <Label htmlFor="confirmPassword">Confirm Password</Label>
-              <Input
-                id="confirmPassword"
-                name="confirmPassword"
-                type="password"
-                required
-              />
-            </div>
-            <div className="grid gap-2">
-              <Label htmlFor="location">Location</Label>
+              <Label htmlFor="location">Address</Label>
               <Input id="location" name="location" type="text" required />
             </div>
             <Button type="submit" className="w-full">
